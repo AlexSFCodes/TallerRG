@@ -78,10 +78,10 @@ void ProduccionProducto(char productos[MaximoProducto][30], int Recursos[MaximoP
 }
 
 void menu() {
-    printf("\n--- MENU ---\n");
+    printf("\n--- LEGOlAND ---\n");
     printf("1. Crear un producto\n");
     printf("2. Ver productos\n");
-    printf("3. Anadir/Editar productos o componentes\n");
+    printf("3. Anadir/Editar productos o recursos\n");
     printf("4. Ver recursos\n");
     printf("5. Reabastecer stock\n");
     printf("6. Producir productos\n");
@@ -89,8 +89,8 @@ void menu() {
 }
 
 void submenu() {
-    printf("\n-- Submenu: Productos y componentes --\n");
-    printf("1. Anadir componente\n");
+    printf("\n-- Submenu: Productos y recursos --\n");
+    printf("1. Anadir recurso\n");
     printf("2. Editar producto\n");
     printf("3. Eliminar producto\n");
     printf("4. Regresar\n>> ");
